@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0d3b66, #1d6fa5);
+  color: white;
+}
+
+.app {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin-bottom: 5px;
+}
+
+.header p {
+  opacity: 0.8;
+}
+
+.card {
+  background: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.upload-box {
+  display: block;
+  border: 2px dashed #0d3b66;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.upload-box input {
+  display: none;
+}
+
+.actions button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background: #0d3b66;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.actions button:hover {
+  background: #1d6fa5;
+}
+
+.preview {
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+canvas {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.whatsapp {
+  display: block;
+  margin-top: 15px;
+  padding: 12px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.loader {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  canvas {
+    width: 100%;
+  }
+}

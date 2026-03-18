@@ -1,0 +1,7 @@
+ userImg,
+        600,   // X (gauche/droite)
+        240,   // Y (haut/bas)
+        420,   // largeur (légèrement réduite)
+        480,   // hauteur ajustée
+        20     // arrondi
+     

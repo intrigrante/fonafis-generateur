@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>FONAFIS Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <div class="header">
+    <h1>🎯 FONAFIS 2026</h1>
+    <p>Crée ton affiche et partage ta participation</p>
+  </div>
+
+  <div class="card">
+
+    <label for="upload" class="upload-box">
+       📸 Ajouter une photo
+    </label>
+
+     <input type="file" id="upload" accept="image/*">
+
+    <div class="actions">
+      <button id="btnGenerate">⚡ Générer</button>
+      <button id="btnDownload">⬇ Télécharger</button>
+    </div>
+
+  </div>
+
+  <div class="preview">
+    <canvas id="canvas" width="1080" height="1080"></canvas>
+  </div>
+
+  
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
